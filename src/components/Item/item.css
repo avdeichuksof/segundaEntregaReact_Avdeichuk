@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+
+.cardItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 20px;
+    background-color: #466D0B;
+    border-radius: 5px;
+}
+
+.cardItem .imgDetail{
+    width: 100%;
+    padding: 10px;
+}
+
+.cardItem .bodyDetail{
+    text-align: center;
+    padding-bottom: 10px;
+}

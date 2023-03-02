@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+
+.cartWidget{
+    display: inline;
+    color: #FEFAE0;
+    background-color: #588417;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.cartWidget:hover{
+    opacity: 0.8;
+}
+
+.cartWidget{
+    background-color: #588417;
+    border: none;
+    color: #FEFAE0;
+    padding: 8px;
+}

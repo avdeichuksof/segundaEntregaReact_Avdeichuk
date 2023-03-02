@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;
+    font-family: 'Prompt', sans-serif;
+}
+
+.menu li{
+    display: inline;
+    list-style: none;
+}
+
+.menu .menu_item{
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #FEFAE0;
+    margin: 0 15px;
+    font-size: 1rem;
+    position: relative;
+    padding: 5px;
+    list-style: none;
+}
+
+.menu .menu_item::after{
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #FEFAE0;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+}
+
+.menu .menu_item:hover::after{
+    width: 100%;
+    right: 0
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "id": "p01",
+        "category": "placas",
+        "img": "https://lacarlotamaderas.com/wp-content/uploads/2014/11/placas-osb-tableros.jpg",
+        "title": "Placa de OSB",
+        "price": 1500
+    },
+    {
+        "id": "t01",
+        "category": "techos",
+        "img": "https://i.pinimg.com/564x/86/cf/cb/86cfcbe15985604f34c9c2c6801f7edb.jpg",
+        "title": "Techo",
+        "price": 1500
+    },
+    {
+        "id": "e01",
+        "category": "escaleras",
+        "img": "https://i.pinimg.com/564x/8f/46/23/8f4623e35ff5d2bb544d8f0a6292b94f.jpg",
+        "title": "Escalera",
+        "price": 1500
+    },
+    {
+        "id": "md01",
+        "category": "mesadas",
+        "img": "https://i.pinimg.com/564x/69/92/60/6992607e27c81b2da44fba4c0a6f691e.jpg",
+        "title": "Mesada",
+        "price": 1500
+    },
+    {
+        "id": "m01",
+        "category": "mesas",
+        "img": "https://i.pinimg.com/564x/55/a4/f9/55a4f997bc261d793b4710eeec9c87f4.jpg",
+        "title": "Mesita Ratona",
+        "price": 1500
+    }
+]
